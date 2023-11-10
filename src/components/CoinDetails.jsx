@@ -108,7 +108,7 @@ const CoinDetails = () => {
         <Loader />
       ) : (
         <>
-          <Box w={'full'} borderWidth={1}>
+          <Box w={'full'} borderWidth={1} mt={'25'}>
             <Chart arr={chartArray} currency={currencySymbol} />
           </Box>
 

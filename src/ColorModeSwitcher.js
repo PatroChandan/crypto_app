@@ -17,6 +17,8 @@ const ColorModeSwitcher = props => {
       zIndex={'overlay'}
       onClick={toggleColorMode}
       icon={<SwitchIcon />}
+      border={'1px'}
+      backgroundColor={'aqua'}
       {...props}
     />
   );
